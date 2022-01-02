@@ -1,0 +1,24 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(37, 40, 41);
+    color: white;
+    
+}
+header img{
+    filter: contrast(120);
+    width: 15rem;
+    margin-left: -45px;
+}
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin: 1rem;
+}
+
